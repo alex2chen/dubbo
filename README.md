@@ -26,7 +26,7 @@ Dubbo是一个高性能的分布式RPC框架，主要包括一下部分:
 
 ### Todo
 * 精简代码Lombok
-* javassist替换为byte-buddy，[参阅](https://jrebel.com/rebellabs/testing-the-performance-of-4-java-runtime-code-generators-cglib-javassist-jdk-proxy-byte-buddy/)
+* 比较混乱的javassist替换为byte-buddy，[参阅](https://jrebel.com/rebellabs/testing-the-performance-of-4-java-runtime-code-generators-cglib-javassist-jdk-proxy-byte-buddy/)
 * Reactive支持: Reactor & RxJava
 
 ##spring-boot-dubbo
