@@ -1,0 +1,5 @@
+com\alibaba\dubbo\registry\consul\ConsulRegistryFactory.class
+com\alibaba\dubbo\registry\consul\ConsulRegistry$ServiceLookupThread.class
+com\alibaba\dubbo\registry\consul\ConsulRegistry$1.class
+com\alibaba\dubbo\registry\consul\NotifyListenerConsulWrapper.class
+com\alibaba\dubbo\registry\consul\ConsulRegistry.class

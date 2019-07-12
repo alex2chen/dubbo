@@ -17,6 +17,7 @@ Dubbo是一个高性能的分布式RPC框架，主要包括一下部分:
 * 代码迁移到Java 8
 * @Service 更改为 @DubboService
 * hessian序列化支持Java 8 Optional，暂时不支持容器类，如List, Map
+* 异步支持guava的ListenableFuture
 * 序列化调整到hessian2协议上
 * zookeeper有zkClient调整到curator
 * 多注册中心: 删除simple registry，新增Consul，继续支持Redis、ZooKeeper

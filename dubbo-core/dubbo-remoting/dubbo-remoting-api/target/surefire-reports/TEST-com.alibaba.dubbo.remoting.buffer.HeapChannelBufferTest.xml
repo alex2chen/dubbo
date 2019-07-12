@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="49" failures="0" name="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" time="0.023" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2018.3.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\fei.chen\Desktop\dubbo\dubbo-core"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\fei.chen\Desktop\dubbo\dubbo-core"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\FEI~1.CHE\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\Program Files\JetBrains\ideaIU-2018.2.7\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\Program\apache-maven-3.3.9/bin;C:\Program Files\Java\jdk1.8.0_60\bin;D:\Program\mysql-5.7.15\bin;C:\Program Files\MongoDB\Server\3.2\bin;D:\Program\nvm;D:\Program\nodejs;D:\Program\spring-1.5.4.RELEASE\bin;D:\Program\erl9.0\bin;D:\Program\Git\cmd;C:\Program Files\TortoiseSVN\bin;D:\Program\svn-cmd\bin;D:\Program\k8s;D:\Program\istio-0.8.0\bin;D:\Program\go\bin;D:\Program\TortoiseGit\bin;;D:\Program\Microsoft VS Code\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\fei.chen"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="fei.chen"/>
+    <property name="java.class.path" value="D:\Program Files\JetBrains\ideaIU-2018.2.7\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;D:\Program Files\JetBrains\ideaIU-2018.2.7\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_60\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.3.3 package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Program Files\JetBrains\ideaIU-2018.2.7\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="setIndexBoundaryCheck1" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="setIndexBoundaryCheck2" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="setIndexBoundaryCheck3" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="getByteBoundaryCheck1" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="getByteBoundaryCheck2" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="copyBoundaryCheck1" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="copyBoundaryCheck2" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="copyBoundaryCheck3" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="copyBoundaryCheck4" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testRandomByteAccess" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testSequentialByteBufferTransfer" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="getDirectByteBufferState" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testCopy" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testSkipBytes1" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testRandomByteBufferTransfer" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testSequentialCopiedBufferTransfer1" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="getDirectByteBufferBoundaryCheck" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="initialState" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testSequentialByteArrayTransfer1" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testSequentialByteArrayTransfer2" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testRandomDirectBufferTransfer" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="getByteArrayBoundaryCheck1" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="getByteArrayBoundaryCheck2" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testRandomHeapBufferTransfer1" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testRandomHeapBufferTransfer2" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testByteArrayTransfer" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testStreamTransfer1" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testStreamTransfer2" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testRandomByteArrayTransfer1" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testRandomByteArrayTransfer2" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testSequentialHeapBufferTransfer1" time="0.001"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testSequentialHeapBufferTransfer2" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="readerIndexBoundaryCheck1" time="0.004"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="readerIndexBoundaryCheck2" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="readerIndexBoundaryCheck3" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="readerIndexBoundaryCheck4" time="0.001"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="getByteBufferBoundaryCheck" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="getByteBufferState" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testToByteBuffer1" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testToByteBuffer2" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="writerIndexBoundaryCheck1" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="writerIndexBoundaryCheck2" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="writerIndexBoundaryCheck3" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="writerIndexBoundaryCheck4" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testSequentialByteBufferBackedHeapBufferTransfer1" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testSequentialByteBufferBackedHeapBufferTransfer2" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testSequentialByteAccess" time="0.001"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testSequentialDirectBufferTransfer1" time="0"/>
+  <testcase classname="com.alibaba.dubbo.remoting.buffer.HeapChannelBufferTest" name="testSequentialDirectBufferTransfer2" time="0.016"/>
+</testsuite>

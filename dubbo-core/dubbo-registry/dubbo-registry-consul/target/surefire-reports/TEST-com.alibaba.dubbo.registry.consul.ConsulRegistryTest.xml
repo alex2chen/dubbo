@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="com.alibaba.dubbo.registry.consul.ConsulRegistryTest" time="3.211" errors="3" skipped="0">
+  <properties>
+    <property name="idea.version" value="2018.3.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\fei.chen\Desktop\dubbo\dubbo-core"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\fei.chen\Desktop\dubbo\dubbo-core"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\FEI~1.CHE\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\Program Files\JetBrains\ideaIU-2018.2.7\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\Program\apache-maven-3.3.9/bin;C:\Program Files\Java\jdk1.8.0_60\bin;D:\Program\mysql-5.7.15\bin;C:\Program Files\MongoDB\Server\3.2\bin;D:\Program\nvm;D:\Program\nodejs;D:\Program\spring-1.5.4.RELEASE\bin;D:\Program\erl9.0\bin;D:\Program\Git\cmd;C:\Program Files\TortoiseSVN\bin;D:\Program\svn-cmd\bin;D:\Program\k8s;D:\Program\istio-0.8.0\bin;D:\Program\go\bin;D:\Program\TortoiseGit\bin;;D:\Program\Microsoft VS Code\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\fei.chen"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="fei.chen"/>
+    <property name="java.class.path" value="D:\Program Files\JetBrains\ideaIU-2018.2.7\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;D:\Program Files\JetBrains\ideaIU-2018.2.7\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_60\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.3.3 package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Program Files\JetBrains\ideaIU-2018.2.7\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.alibaba.dubbo.registry.consul.ConsulRegistryTest" name="testDeregister" time="1.063">
+    <error message="Failed to unregister dubbo://192.168.11.1:20880/com.alibaba.dubbo.test.injvmServie?methods=test1,test2&amp;notify=false to registry localhost:8500, cause: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1] failed: Connection refused: connect" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to unregister dubbo://192.168.11.1:20880/com.alibaba.dubbo.test.injvmServie?methods=test1,test2&amp;notify=false to registry localhost:8500, cause: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1] failed: Connection refused: connect
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.unregister(FailbackRegistry.java:173)
+	at com.alibaba.dubbo.registry.consul.ConsulRegistryTest.testDeregister(ConsulRegistryTest.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: com.ecwid.consul.transport.TransportException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1] failed: Connection refused: connect
+	at com.ecwid.consul.transport.AbstractHttpTransport.executeRequest(AbstractHttpTransport.java:77)
+	at com.ecwid.consul.transport.AbstractHttpTransport.makePutRequest(AbstractHttpTransport.java:41)
+	at com.ecwid.consul.v1.ConsulRawClient.makePutRequest(ConsulRawClient.java:135)
+	at com.ecwid.consul.v1.agent.AgentConsulClient.agentServiceDeregister(AgentConsulClient.java:291)
+	at com.ecwid.consul.v1.agent.AgentConsulClient.agentServiceDeregister(AgentConsulClient.java:284)
+	at com.ecwid.consul.v1.ConsulClient.agentServiceDeregister(ConsulClient.java:314)
+	at com.alibaba.dubbo.registry.consul.ConsulRegistry.doUnregister(ConsulRegistry.java:82)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.unregister(FailbackRegistry.java:160)
+	... 30 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:221)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:165)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:140)
+	at com.ecwid.consul.transport.AbstractHttpTransport.executeRequest(AbstractHttpTransport.java:61)
+	... 37 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 49 more
+</error>
+    <system-out>17:17:33.565 [main] INFO com.alibaba.dubbo.common.logger.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+17:17:33.648 [main] INFO com.alibaba.dubbo.registry.consul.ConsulRegistry -  [DUBBO] Load registry store file C:\Users\fei.chen\.dubbo\dubbo-registry-localhost.cache, data: {com.alibaba.dubbo.examples.generic.api.IUserService=empty://172.16.200.64:20880/com.alibaba.dubbo.examples.generic.api.IUserService?anyhost=true&amp;application=generic-generic&amp;category=configurators&amp;check=false&amp;deprecated=true&amp;dubbo=2.0.0&amp;generic=false&amp;interface=com.alibaba.dubbo.examples.generic.api.IUserService&amp;methods=get&amp;pid=2712&amp;side=provider&amp;timestamp=1545094423814, com.alibaba.dubbo.examples.validation.api.ValidationService=empty://172.16.200.64/com.alibaba.dubbo.examples.validation.api.ValidationService?application=validation-consumer&amp;category=configurators&amp;dubbo=2.0.0&amp;interface=com.alibaba.dubbo.examples.validation.api.ValidationService&amp;methods=save,update,delete&amp;pid=11900&amp;save.retries=5&amp;side=consumer&amp;timeout=3000&amp;timestamp=1545093979225&amp;validation=true empty://172.16.200.64/com.alibaba.dubbo.examples.validation.api.ValidationService?application=validation-consumer&amp;category=routers&amp;dubbo=2.0.0&amp;interface=com.alibaba.dubbo.examples.validation.api.ValidationService&amp;methods=save,update,delete&amp;pid=11900&amp;save.retries=5&amp;side=consumer&amp;timeout=3000&amp;timestamp=1545093979225&amp;validation=true empty://172.16.200.64/com.alibaba.dubbo.examples.validation.api.ValidationService?application=validation-consumer&amp;category=providers&amp;dubbo=2.0.0&amp;interface=com.alibaba.dubbo.examples.validation.api.ValidationService&amp;methods=save,update,delete&amp;pid=11900&amp;save.retries=5&amp;side=consumer&amp;timeout=3000&amp;timestamp=1545093979225&amp;validation=true}, dubbo version: 3.0.0-SNAPSHOT, current host: 127.0.0.1
+17:17:35.217 [main] INFO com.alibaba.dubbo.registry.consul.ConsulRegistry -  [DUBBO] Unregister: dubbo://192.168.11.1:20880/com.alibaba.dubbo.test.injvmServie?methods=test1,test2&amp;notify=false, dubbo version: 3.0.0-SNAPSHOT, current host: 127.0.0.1
+</system-out>
+  </testcase>
+  <testcase classname="com.alibaba.dubbo.registry.consul.ConsulRegistryTest" name="testIsAvailable" time="1.01">
+    <error message="org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1] failed: Connection refused: connect" type="com.ecwid.consul.transport.TransportException">com.ecwid.consul.transport.TransportException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1] failed: Connection refused: connect
+	at com.ecwid.consul.transport.AbstractHttpTransport.executeRequest(AbstractHttpTransport.java:77)
+	at com.ecwid.consul.transport.AbstractHttpTransport.makeGetRequest(AbstractHttpTransport.java:34)
+	at com.ecwid.consul.v1.ConsulRawClient.makeGetRequest(ConsulRawClient.java:128)
+	at com.ecwid.consul.v1.coordinate.CoordinateConsulClient.getDatacenters(CoordinateConsulClient.java:28)
+	at com.ecwid.consul.v1.ConsulClient.getDatacenters(ConsulClient.java:405)
+	at com.alibaba.dubbo.registry.consul.ConsulRegistry.isAvailable(ConsulRegistry.java:54)
+	at com.alibaba.dubbo.registry.consul.ConsulRegistryTest.testIsAvailable(ConsulRegistryTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:221)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:165)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:140)
+	at com.ecwid.consul.transport.AbstractHttpTransport.executeRequest(AbstractHttpTransport.java:61)
+	... 35 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 47 more
+</error>
+    <system-out>17:17:36.286 [main] INFO com.alibaba.dubbo.registry.consul.ConsulRegistry -  [DUBBO] Load registry store file C:\Users\fei.chen\.dubbo\dubbo-registry-localhost.cache, data: {com.alibaba.dubbo.examples.generic.api.IUserService=empty://172.16.200.64:20880/com.alibaba.dubbo.examples.generic.api.IUserService?anyhost=true&amp;application=generic-generic&amp;category=configurators&amp;check=false&amp;deprecated=true&amp;dubbo=2.0.0&amp;generic=false&amp;interface=com.alibaba.dubbo.examples.generic.api.IUserService&amp;methods=get&amp;pid=2712&amp;side=provider&amp;timestamp=1545094423814, com.alibaba.dubbo.examples.validation.api.ValidationService=empty://172.16.200.64/com.alibaba.dubbo.examples.validation.api.ValidationService?application=validation-consumer&amp;category=configurators&amp;dubbo=2.0.0&amp;interface=com.alibaba.dubbo.examples.validation.api.ValidationService&amp;methods=save,update,delete&amp;pid=11900&amp;save.retries=5&amp;side=consumer&amp;timeout=3000&amp;timestamp=1545093979225&amp;validation=true empty://172.16.200.64/com.alibaba.dubbo.examples.validation.api.ValidationService?application=validation-consumer&amp;category=routers&amp;dubbo=2.0.0&amp;interface=com.alibaba.dubbo.examples.validation.api.ValidationService&amp;methods=save,update,delete&amp;pid=11900&amp;save.retries=5&amp;side=consumer&amp;timeout=3000&amp;timestamp=1545093979225&amp;validation=true empty://172.16.200.64/com.alibaba.dubbo.examples.validation.api.ValidationService?application=validation-consumer&amp;category=providers&amp;dubbo=2.0.0&amp;interface=com.alibaba.dubbo.examples.validation.api.ValidationService&amp;methods=save,update,delete&amp;pid=11900&amp;save.retries=5&amp;side=consumer&amp;timeout=3000&amp;timestamp=1545093979225&amp;validation=true}, dubbo version: 3.0.0-SNAPSHOT, current host: 127.0.0.1
+</system-out>
+  </testcase>
+  <testcase classname="com.alibaba.dubbo.registry.consul.ConsulRegistryTest" name="testRegister" time="1.137">
+    <error message="Failed to register dubbo://192.168.11.1:20880/com.alibaba.dubbo.test.injvmServie?methods=test1,test2&amp;notify=false to registry localhost:8500, cause: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1] failed: Connection refused: connect" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to register dubbo://192.168.11.1:20880/com.alibaba.dubbo.test.injvmServie?methods=test1,test2&amp;notify=false to registry localhost:8500, cause: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1] failed: Connection refused: connect
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.register(FailbackRegistry.java:143)
+	at com.alibaba.dubbo.registry.consul.ConsulRegistryTest.testRegister(ConsulRegistryTest.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: com.ecwid.consul.transport.TransportException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1] failed: Connection refused: connect
+	at com.ecwid.consul.transport.AbstractHttpTransport.executeRequest(AbstractHttpTransport.java:77)
+	at com.ecwid.consul.transport.AbstractHttpTransport.makePutRequest(AbstractHttpTransport.java:41)
+	at com.ecwid.consul.v1.ConsulRawClient.makePutRequest(ConsulRawClient.java:135)
+	at com.ecwid.consul.v1.agent.AgentConsulClient.agentServiceRegister(AgentConsulClient.java:273)
+	at com.ecwid.consul.v1.agent.AgentConsulClient.agentServiceRegister(AgentConsulClient.java:265)
+	at com.ecwid.consul.v1.ConsulClient.agentServiceRegister(ConsulClient.java:304)
+	at com.alibaba.dubbo.registry.consul.ConsulRegistry.doRegister(ConsulRegistry.java:77)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.register(FailbackRegistry.java:130)
+	... 30 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:221)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:165)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:140)
+	at com.ecwid.consul.transport.AbstractHttpTransport.executeRequest(AbstractHttpTransport.java:61)
+	... 37 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 49 more
+</error>
+    <system-out>17:17:37.298 [main] INFO com.alibaba.dubbo.registry.consul.ConsulRegistry -  [DUBBO] Load registry store file C:\Users\fei.chen\.dubbo\dubbo-registry-localhost.cache, data: {com.alibaba.dubbo.examples.generic.api.IUserService=empty://172.16.200.64:20880/com.alibaba.dubbo.examples.generic.api.IUserService?anyhost=true&amp;application=generic-generic&amp;category=configurators&amp;check=false&amp;deprecated=true&amp;dubbo=2.0.0&amp;generic=false&amp;interface=com.alibaba.dubbo.examples.generic.api.IUserService&amp;methods=get&amp;pid=2712&amp;side=provider&amp;timestamp=1545094423814, com.alibaba.dubbo.examples.validation.api.ValidationService=empty://172.16.200.64/com.alibaba.dubbo.examples.validation.api.ValidationService?application=validation-consumer&amp;category=configurators&amp;dubbo=2.0.0&amp;interface=com.alibaba.dubbo.examples.validation.api.ValidationService&amp;methods=save,update,delete&amp;pid=11900&amp;save.retries=5&amp;side=consumer&amp;timeout=3000&amp;timestamp=1545093979225&amp;validation=true empty://172.16.200.64/com.alibaba.dubbo.examples.validation.api.ValidationService?application=validation-consumer&amp;category=routers&amp;dubbo=2.0.0&amp;interface=com.alibaba.dubbo.examples.validation.api.ValidationService&amp;methods=save,update,delete&amp;pid=11900&amp;save.retries=5&amp;side=consumer&amp;timeout=3000&amp;timestamp=1545093979225&amp;validation=true empty://172.16.200.64/com.alibaba.dubbo.examples.validation.api.ValidationService?application=validation-consumer&amp;category=providers&amp;dubbo=2.0.0&amp;interface=com.alibaba.dubbo.examples.validation.api.ValidationService&amp;methods=save,update,delete&amp;pid=11900&amp;save.retries=5&amp;side=consumer&amp;timeout=3000&amp;timestamp=1545093979225&amp;validation=true}, dubbo version: 3.0.0-SNAPSHOT, current host: 127.0.0.1
+17:17:37.299 [main] INFO com.alibaba.dubbo.registry.consul.ConsulRegistry -  [DUBBO] Register: dubbo://192.168.11.1:20880/com.alibaba.dubbo.test.injvmServie?methods=test1,test2&amp;notify=false, dubbo version: 3.0.0-SNAPSHOT, current host: 127.0.0.1
+</system-out>
+  </testcase>
+  <testcase classname="com.alibaba.dubbo.registry.consul.ConsulRegistryTest" name="testSubscribe" time="0.001"/>
+</testsuite>

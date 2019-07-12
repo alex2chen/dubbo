@@ -1,0 +1,4 @@
+com\alibaba\dubbo\registry\redis\RedisRegistry$NotifySub.class
+com\alibaba\dubbo\registry\redis\RedisRegistry$Notifier.class
+com\alibaba\dubbo\registry\redis\RedisRegistryFactory.class
+com\alibaba\dubbo\registry\redis\RedisRegistry.class

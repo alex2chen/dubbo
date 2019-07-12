@@ -1,0 +1,2 @@
+com\alibaba\dubbo\registry\zookeeper\ZookeeperRegistryFactory.class
+com\alibaba\dubbo\registry\zookeeper\ZookeeperRegistry.class

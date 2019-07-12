@@ -1,0 +1,1 @@
+curator=com.alibaba.dubbo.remoting.zookeeper.curator.CuratorZookeeperTransporter
