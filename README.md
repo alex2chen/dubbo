@@ -6,7 +6,7 @@ Dubbo是一个高性能的分布式RPC框架，主要包括一下部分:
 * Clustering(集群): a remote procedure call abstraction with load-balancing/failover/clustering capabilities.
 * Registry(注册中心): a service directory framework for service registration and service event publish/subscription
 
-文档地址: http://alibaba.github.io/dubbo-doc-static/Developer+Guide-zh.htm
+旧文档地址: http://dubbo.jacarrichan.com
 
 ## 背景
 由于Dubbo的版本并不是特别活跃，加上和jdk8及Spring Boot的jar包适配等问题
@@ -27,7 +27,7 @@ Dubbo是一个高性能的分布式RPC框架，主要包括一下部分:
 
 ### Todo
 * 精简代码Lombok
-* 比较混乱的javassist替换为byte-buddy，[参阅](https://jrebel.com/rebellabs/testing-the-performance-of-4-java-runtime-code-generators-cglib-javassist-jdk-proxy-byte-buddy/)
+* 比较混乱的javassist替换为byte-buddy，[参阅](https://blog.csdn.net/alex_xfboy/article/details/94204606)
 * Reactive支持: Reactor & RxJava
 
 ##spring-boot-dubbo
